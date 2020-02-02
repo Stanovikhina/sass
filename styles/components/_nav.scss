@@ -1,0 +1,22 @@
+$color: red;
+
+
+.nav {
+    position: relative;
+    color: $color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &-item {
+        padding-left: 30px;
+    }
+    .active {
+      color:  rgb(238, 24, 59);
+    }
+    .search {
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        top: 20px;
+    }
+}
+

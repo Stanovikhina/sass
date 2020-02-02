@@ -1,0 +1,18 @@
+$color: red;
+$width_search: 30px;
+$height_search: 20px;
+$font-weight: bold;
+$logo_size: 28px;
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        font-weight: $font-weight;
+        font-size: $logo_size;
+    }
+}
+
+
